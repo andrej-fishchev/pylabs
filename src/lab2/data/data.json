@@ -1,0 +1,66 @@
+{
+  "id": 1,
+  "name": "Node",
+  "description": "test",
+  "labs": [
+    {
+      "id": "1",
+      "name": "Лабораторная работа №1",
+      "description": "something interesting",
+      "tasks": [
+        {
+          "id": "1",
+          "name": "Заполнение файла",
+          "description": "....",
+          "actions": [
+            {
+              "id": "1",
+              "name": "Ввод данных",
+              "description": "Требуется ввести данные",
+              "signature": "org.example.src.DoSomething"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Лабораторная работа №2",
+      "description": "something interesting №2",
+      "tasks": [
+        {
+          "id": "1",
+          "name": "Заполнение файла",
+          "description": "....",
+          "actions": [
+            {
+              "id": "1",
+              "name": "Ввод данных",
+              "description": "Требуется ввести данные",
+              "signature": "org.example.src.DoSomething"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Удаление заданного слова",
+          "description": "....",
+          "actions": [
+            {
+              "id": "1",
+              "name": "Ввод данных",
+              "description": "Требуется ввести данные",
+              "signature": "org.example.src.DoSomething3"
+            },
+            {
+              "id": "2",
+              "name": "Вывод данных",
+              "description": "Требуется вывести данные",
+              "signature": "org.example.src.DoSomething2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
